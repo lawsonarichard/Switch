@@ -1,0 +1,50 @@
+.faq-wrap {
+  width: 100%;
+  padding:20px;
+  background-color: @turquoise;
+  
+  h1 {
+    margin-bottom: 10px;
+
+  }
+}
+
+.accordion {
+    
+    .panel {
+      padding: 30px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      margin-bottom:10px;
+      background-color: @yellow;
+
+
+      
+      .panel-bar {
+        display: flex;
+        justify-content: space-between;
+        
+        .panel-buttons {
+          
+          button {
+            cursor: pointer;
+            padding:10px;
+          }
+
+          .hide-btn {
+            display: none;
+          }
+        }
+      }
+      
+      .panel-content {
+        display: none;
+        margin-top: 15px;
+      }
+      
+      .toggle-on {
+        display: block;
+      }
+    }
+  }
+
